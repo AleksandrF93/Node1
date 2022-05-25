@@ -1,0 +1,31 @@
+{
+  "name": "node1",
+  "version": "1.0.0",
+  "description": "first progect",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksandrF93/Node1.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "AleksandrF93",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksandrF93/Node1/issues"
+  },
+  "homepage": "https://github.com/AleksandrF93/Node1.git",
+  "dependencies": {
+    "uuidv4": "^6.2.13",
+    "yargs": "^17.5.1"
+  }
+}
